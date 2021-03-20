@@ -1,0 +1,175 @@
+:root {
+    --background_colo:#fefefe;
+    --text_color:#4e4e4e;
+    --card_bg_color:#bada55;
+    --box-shadow: #ccc; 
+}
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--background_color);
+    color:var(--text_color);
+    box-sizing: border-box;
+    text-align: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+/* header setting */
+.navbar{
+    font-size: 24px;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navbar a {
+    color:var(--text_color);
+    display: inline-block;
+    padding: 10px;
+}
+
+.navbar a:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+/* container image setting */
+
+.my_photo {
+    width: 100%;
+    display: table-cell;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 0.7;
+}
+
+#about {
+    width: 70%;
+    text-align: center;
+    justify-content: center !important;
+    position: relative;
+    margin: auto;
+}
+
+#abnout h2,
+#abnout p {
+    text-align: center;
+}
+
+
+/* info setting *
+
+section{
+    display:inline-block
+}
+
+#about {
+    width: 800px;
+    border-style:hidden;
+    margin: 50px 15px;
+}
+
+#about h2 {
+    margin-bottom: 30px;
+}
+
+#about p {
+    line-height: 200%;
+}
+
+
+/* my work setting */
+
+#mywork {
+    margin-top: 50px;
+}
+
+.row {
+    width: 70%;
+    text-align: center;
+    justify-content: center !important;
+    position: relative;
+    margin: auto;
+}
+
+.card {
+    flex-direction: column;
+    border-style: solid;
+    width: 25%;
+    margin: 30px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 6px var(--box-shadow);
+    background-color: var(--background_colo);
+    overflow:hidden
+}
+
+.card:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    background-color: var(--card_bg_color);
+    cursor: pointer;
+}
+
+
+/* contact setting */
+#contact{
+    display: inline-block;
+    width: 50%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.phonecall,
+.email,
+.linkedin,
+.youtube {
+    display: inline;
+    height: 48px;
+    width: 48px;
+    margin: 50px 15px;
+    
+}
+
+.phonecall:hover ,
+.email:hover,
+.linkedin:hover,
+.youtube:hover {
+    transform: scale(1.2);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+span[data-number] {
+    position: relative;
+    color: black;
+    cursor: pointer;
+  }
+
+span[data-number]:hover::before,
+span[data-number]:focus::before {
+    content: attr(data-number);
+    position: absolute;
+    left: 0px;
+    bottom: 24px;
+    min-width: 200px;
+    border: 1px solid #aaaaaa;
+    background-color:var(--card_bg_color);
+    padding: 12px;
+    font-size: 18px;
+    z-index: 1;
+    color: white;
+}
+
+/* footer setting */
+
+footer {
+    font-size: large;
+    margin-top: 50px;
+}
+
+footer p {
+    padding: 150px;
+}
