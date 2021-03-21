@@ -1,0 +1,67 @@
+* {
+    font-family: 'RocknRoll One', sans-serif,serif;
+}
+
+:root {
+    --navBg: #7FFFD4;
+    --low: green;
+    --mod: yellow;
+    --high: orange;
+    --veryHigh: red;
+    --Extra: pink;
+;
+  }
+
+.header {
+    background-color: var(--navBg);
+    padding: 1rem;
+}
+
+h1 {
+    font-size: xx-large;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1rem;
+}
+
+.btn {
+    background-color: var(--navBg);
+    border-color: var(--navBg);
+    color: black;
+}
+
+.col {
+    background-color: var(--navBg);
+    text-align: center;
+}
+
+.UVBackgroundLow {
+    background-color: var(--low);
+}
+
+.UVBackgroundMod {
+    background-color: var(--mod);
+}
+
+.UVBackgroundHigh {
+    background-color: var(--high);
+}
+
+.UVBackgroundVHigh {
+    background-color: var(--veryHigh);
+}
+
+.UVBackgroundExtra {
+    background-color: var(--Extra);
+}
+
+.form-control:hover {
+    cursor: pointer;
+}
+
+#city-input:hover {
+    cursor:text;
+}

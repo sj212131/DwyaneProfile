@@ -1,4 +1,4 @@
-# Homework-Feb-13
+# Homework-March-27
 ==================================================================================================
 
 
@@ -6,7 +6,7 @@ Home assignment
 --------------------------------------------------------------------------------------------------
 Background:
 
-This is Homework due on Fen 13. Practice of HTML coding and CSS file.
+This is Homework due on March 6. Practice of JavaScript, HTML, CSS, 3rd API (Moment.js; bootstrap; Jquery)
 
 --------------------------------------------------------------------------------------------------
 Install
@@ -18,43 +18,10 @@ Please ensure your GitLab and Github account created with SSH key.
 --------------------------------------------------------------------------------------------------
 Usage （purpose）
 
-Practice HTML and Css file coding, simplify duplicate code without changing any outcome
+Practice of Practice of JavaScript, HTML, CSS, 3rd API (Moment.js, bootstrap, Jquery, etc)
 
 --------------------------------------------------------------------------------------------------
 
-Table of index file
-
-Html style 
-    head
-        title
-
-    Body
-        deader
-            div
-               li
-
-        section container
-
-        main
-            section info
-                div about
-                   h2
-                   p
-                div mywork
-                    h2
-                        div
-                         card1,2,3,4,5,6
-                div contact
-                    h2
-                        icon
-                            span1,2,3,4
-        
-        footer
-            h3
-            p
-
-
---------------------------------------------------------------------------------------------------
 Contributing 
 
 for future reference 
@@ -71,7 +38,7 @@ for future reference
 You are required to submit BOTH of the following for review:
 
 * The URL of the deployed application.
-        https://sj212131.github.io/Homework-Feb-13/
+        https://sj212131.github.io/Homework-Mar-27/
         
 * The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
-        https://github.com/sj212131/Homework-Feb-13
+        https://github.com/sj212131/Homework-Mar-27

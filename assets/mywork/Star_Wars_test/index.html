@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Star Wars Personality Quiz</title>
+</head>
+<body>
+  <div id="particles-js" class="particles">
+    <div class="container is-widescreen">
+        <div class="notification"  id="homePage">
+          <h1 class="title is-1">Which Star Wars Character Are You</h1>
+
+          <img class="image is-3by1" src="./assets/img/SW.jpg" alt="image of star wars characters">
+
+          <p id="intro">
+            In life emotion is fickle. It is said that to control ones emotional state is to harness absolute power. Some galaxians are born predisposed to certain emotions, while others grapple with the temptations of light and darkness incessantly. Ceaselessly grappling with the forces at be leaves many galaxians defenseless against darkness. Have you fallen to darkness? Has light prevailed? Proceed with caution to determine your side of the force, your allegiances, your character, but remember...
+            </p>
+          <p id ="quote">“You can’t stop the change, any more than you can stop the suns from setting.”— Shmi Skywalker.</p>
+
+          <button class="button startBtn is-white" id="startBtn">take the quiz now</button>
+      </div>
+</div>
+</div>
+    <div class="container is-widescreen question-container hide" id="questionContainer">
+
+      <h1 class="title is-1">Which Star Wars Character Are You</h1>
+
+          <div class="control">
+            <H2 class="question">
+              Statement 1: Rules are not meant to be broken.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig" type="radio" name="answer1" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer1" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall" type="radio" name="answer1" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer1" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall" type="radio" name="answer1" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid"  type="radio" name="answer1" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig" type="radio" name="answer1" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+            <H2 class="question">
+              Statement 2: People are not weak and do not need to be told what to do.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig" type="radio" name="answer2" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer2" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall" type="radio" name="answer2" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer2" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall" type="radio" name="answer2" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer2" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig" type="radio" name="answer2" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+            <H2 class="question">
+              Statement 3: Emotions are meant to be controlled.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig"  type="radio" name="answer3" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer3" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer3" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer3" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer3" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer3" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig"  type="radio" name="answer3" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+
+            <H2 class="question">
+              Statement 4: Other people’s feelings matter.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig"  type="radio" name="answer4" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer4" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer4" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer4" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer4" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer4" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig"  type="radio" name="answer4" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+
+            <H2 class="question">
+              Statement 5: You trust that people have good intentions.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig"  type="radio" name="answer5" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer5" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer5" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer5" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer5" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer5" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig"  type="radio" name="answer5" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+
+            <H2 class="question">
+              Statement 6: You like spending time with others.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig"  type="radio" name="answer6" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer6" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer6" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer6" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer6" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer6" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig"  type="radio" name="answer6" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+
+            <H2 class="question">
+              Statement 7: Peace is the truth, there is no passion.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig"  type="radio" name="answer7" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer7" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer7" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer7" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer7" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer7" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig"  type="radio" name="answer7" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+
+            <H2 class="question">
+              Statement 8: Too much power leads to destruction.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig"  type="radio" name="answer8" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer8" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer8" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer8" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer8" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer8" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig"  type="radio" name="answer8" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+
+            <H2 class="question">
+              Statement 9: Good and evil is not a point of view.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig"  type="radio" name="answer9" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer9" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer9" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer9" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer9" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer9" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig"  type="radio" name="answer9" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+
+          <div class="control">
+
+            <H2 class="question">
+              Statement 10: Hatred is not a tool that can be utilized.
+            </H2>
+
+            <label class="radio">
+              disagree
+              <input class="raidoBtnBig"  type="radio" name="answer10" value= 2 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer10" value= 4 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer10" value= 6 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnReg" type="radio" name="answer10" value= 8 checked>
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnSmall"  type="radio" name="answer10" value= 10 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnMid" type="radio" name="answer10" value= 12 >
+            </label>
+
+            <label class="radio">
+              <input class="raidoBtnBig"  type="radio" name="answer10" value= 14 >
+              agree
+            </label>
+          </div>
+          </br>
+          <button class="button resultBtn" id="resultBtn">see my results</button>
+    </div>
+
+
+    <div class="container is-widescreen result-container hide" id="resultContainer">
+
+      <h3 class="result">You are <span id="resulteName"></span></h3>
+      </br>
+
+
+      <figure id="resultImage" class="resultImage is-5by4"></figure>
+      </br>
+
+      <p id="resultDescription">
+        In life emotion is fickle. It is said that to control ones emotional state is to harness absolute power. Some galaxians are born predisposed to certain emotions, while others grapple with the temptations of light and darkness incessantly. Ceaselessly grappling with the forces at be leaves many galaxians defenseless against darkness. Have you fallen to darkness? Has light prevailed? Proceed with caution to determine your side of the force, your allegiances, your character, but remember...
+      </p>
+      </br>
+
+      <h4>previous results</h4>
+      </br>
+
+      <div class=" container row inRowcontainer">
+        <div class="media-content" >
+          <h4 class="title is-4">you are</h4>
+          <span id="beforeBtnOne"></span>
+        </div>
+
+        <div class="media-content" >
+          <h4 class="title is-4">you are</h4>
+          <span id="beforeBtnTwo"></span>
+        </div>
+        </div>
+        <button class="button restartBtn" id="restartBtn">restart the quiz</button>
+      </div>
+    </div>
+    <footer>
+      <p>
+        Created in collaboration by Cas McDonald, Kenny Boyer, Shangxian Piao, and William Flores</h1>
+        <img class="swg swg-reball swg-4x"></img>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="./assets/script.js"></script>
+    <script src="./assets/particles.js" type="text/javascript"></script>
+    <script src="./assets/particles-animation.js" type="text/javascript"></script>
+</body>
+</html>
