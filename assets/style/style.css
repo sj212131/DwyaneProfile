@@ -109,7 +109,9 @@
 .phonecall,
 .email,
 .linkedin,
-.youtube {
+.youtube,
+.github,
+.resume {
     display: inline;
     height: 48px;
     width: 48px;
@@ -120,7 +122,9 @@
 .phonecall:hover ,
 .email:hover,
 .linkedin:hover,
-.youtube:hover {
+.youtube:hover, 
+.github:hover,
+.resume:hover {
     transform: scale(1.2);
     transition: 0.3s;
     cursor: pointer;
