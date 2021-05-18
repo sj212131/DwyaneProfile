@@ -76,6 +76,11 @@ a:hover {
   margin-top: 50px;
 }
 
+.sectionTag {
+  margin-top: 1rem !important;
+  padding: 1rem;
+}
+
 .row {
   width: 70%;
   text-align: center;
@@ -89,7 +94,7 @@ a:hover {
   border-style: solid;
   width: 25%;
   margin: 30px;
-  height: 200px;
+  min-height: 200px;
   border-radius: 10px;
   box-shadow: 3px 3px 5px 6px var(--box-shadow);
   background-color: var(--background_colo);
@@ -160,8 +165,22 @@ span[data-number]:focus::before {
 footer {
   font-size: large;
   margin-top: 50px;
+  padding: 150px;
 }
 
-footer p {
-  padding: 150px;
+@media screen and (min-width: 280px) {
+  .card.custom-columns {
+    column-count: 1;
+    width: 100%;
+  }
+
+  .card {
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+  footer {
+    font-size: normal;
+    padding: 50px;
+  }
 }
